@@ -1,0 +1,38 @@
+
+.setupimageview{
+  
+    max-width: 40%;
+    max-height: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.formbg{
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: bisque;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.settextstyle{
+    margin-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td {overflow:hidden;}
+
+.settable{
+ 
+    background-color: darkgrey;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table{
+    margin-top: 20px;
+   
+}
+
+

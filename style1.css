@@ -1,0 +1,16 @@
+.viewmovie{
+width: 70%;
+}
+.seasons{
+    margin-top: 20px;
+    background: rgb(39,210,255);
+background: linear-gradient(90deg, rgba(39,210,255,1) 0%, rgba(3,78,187,1) 29%, rgba(255,0,134,1) 100%);color:white;
+   
+}
+
+@media (max-width: 700px) {
+
+    .viewmovie{
+      width: auto;
+    }
+}

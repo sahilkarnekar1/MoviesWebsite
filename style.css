@@ -1,0 +1,248 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url(bbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.mbody{
+    width: 100%;
+    display: flex;
+    
+    }
+    
+    .moviesbody{
+        width: 100%;
+        display: flex;
+    }
+   .setfix{
+    width:100%; 
+    height:400px;
+    border-radius: 20px;
+   }
+   .minmaximg{
+    width:100%; 
+    min-height:250px; 
+    max-height:250px;
+    border-radius: 20px;
+   }
+   .imgsetdiv{
+    height:auto;
+     width:100%;
+     overflow:hidden;
+   }
+   .imgsetdiv img{
+    width:100%;
+     display:block; 
+     transition:transform 1s;
+   }
+   .imgsetdiv:hover img{
+    transform: scale(1.2);
+   }
+.titleoverflow{
+    overflow: hidden;
+}
+.titleoverflow p{
+font-size: 24px;
+font-family: 'Times New Roman', Times, serif;
+}
+    .options{
+        width: 40%;
+       
+    }
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+        }
+        .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        }
+
+        .howdownload,.pop,.social,.cat,.movieform{
+            border-style: solid;
+            border-radius: 16px;
+            border-color: blue;
+            background-color: white;
+            padding: 14px;
+            margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+        }
+
+/* popular */
+
+
+.pop img{
+    width: 100%;
+}
+.soimg{
+    display: inline;
+    width: 80px;
+    margin-left: 20px;
+   
+}
+.socialimg{
+    text-align: center;
+}
+
+.viewmovie{
+   width: 70%;
+   text-align: center;
+   background-color: white;
+   
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   padding: 10px;
+   
+}
+
+.viewmovie img{
+    width: 100%;
+}
+.desc{
+    text-align: start;
+    background: rgb(39,210,255);
+background: linear-gradient(90deg, rgba(39,210,255,1) 0%, rgba(3,78,187,1) 29%, rgba(255,0,134,1) 100%);color:white;
+margin-top: 10px;
+padding: 10px;
+}
+.download{
+    margin-top: 10px;
+}
+
+
+
+.screenshotsview{
+    width: 100%;
+}
+.textscreen{
+    background-color: aqua;
+    border-radius: 14px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-form-email-message {
+    float: left;
+    width: 100%;
+    font-family: inherit;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0 0 10px;
+    border: 1px solid #ebebf3;
+    border-radius: 3px;
+}
+
+
+    @media only screen and (max-width: 700px) {
+
+        .viewmovie{
+            width: 100%;
+        }
+        
+        .mbody{
+            display: block;
+        }
+        .options{
+            width: 100%;
+            
+        }
+       .howdownload,.pop,.social,.cat,.movieform{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+       }
+
+       .setfix{
+        width:100%; 
+        height:400px;
+       }
+
+       .minmaximg{
+        width:100%; 
+        min-height:235px; 
+        max-height:235px;
+        border-radius: 20px;
+       }
+      
+       .titleoverflow p{
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      /* pagination */
+      /* new */
+
+.pagination {
+	list-style-type: none;
+	padding: 10px 0;
+	display: inline-flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.pagination li {
+	box-sizing: border-box;
+	
+	
+}
+.pagination li a {
+	box-sizing: border-box;
+	background-color: #e2e6e6;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 50%;
+	font-weight: bold;
+	color: #616872;
+	border-radius: 4px;
+}
+.pagination li a:hover {
+	background-color: #d4dada;
+}
+.pagination .next a, .pagination .prev a {
+	text-transform: uppercase;
+	font-size: 50%;
+}
+.pagination .currentpage a {
+	background-color: #518acb;
+	color: #fff;
+}
+.pagination .currentpage a:hover {
+	background-color: #518acb;
+   
+}
+
+/* episodes */
+
+

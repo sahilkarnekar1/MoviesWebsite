@@ -1,0 +1,33 @@
+.viewdata{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 10%;
+   margin-right: 10%;
+  
+}
+.para{
+    margin-top: 20px;
+}
+.parabag{
+    background-color: azure;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.da{
+    padding: 8px 16px;
+    border: 1px solid red;
+    color: black;
+    font-weight: bold;
+  }
+
+
+
+  .formcont{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: aqua;
+}

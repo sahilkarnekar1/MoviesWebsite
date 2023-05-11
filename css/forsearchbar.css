@@ -1,0 +1,77 @@
+
+    #hbz-searchbox {
+     min-width: 300px;
+    margin: 10px auto;
+    border-radius: 13px;
+    overflow: hidden;
+    max-width: 450px;
+    }
+   
+    #hbz-input {
+        width: 59.2%;
+        padding: 10.5px 4%;
+        font: bold 15px "lucida sans", "trebuchet MS", "Tahoma";
+        border: none;
+        background-color: #EEE;
+    }
+   
+    #hbz-input:focus {
+        outline: none;
+        background-color: #FFF;
+        box-shadow: 0 0 2px #333333 inset;
+    }
+   
+    #hbz-submit {
+        overflow: visible;
+        position: relative;
+        float: right;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 32.8%;
+        font: bold 15px/40px "lucida sans", "trebuchet MS", "Tahoma";
+        color: #FFF;
+        text-transform: uppercase;
+       background-image: linear-gradient(to right, #e8365f, #5308c1);
+      
+    }
+   
+    #hbz-submit::before {
+        content: "";
+        position: absolute;
+        border-width: 8px;
+        border-style: solid solid solid none;
+        border-color: transparent #aa2bde;
+        top: 12px;
+        left: -10px;
+    }
+   
+    #hbz-submit:focus,
+    #hbz-submit:active {
+      background-image: linear-gradient(to right, #36aee8, #e22a6b);
+        outline: none;
+    }
+
+    #hbz-submit:focus::before,
+    #hbz-submit:active::before {
+        border-color: transparent #C42F2F;
+    }
+
+    #hbz-submit:hover {
+        background-color: #E54040;
+    }
+
+    #hbz-submit:hover::before {
+        border-color: transparent #E54040;
+}
+.newone{
+    border-style: solid;
+    border-color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+

@@ -1,0 +1,112 @@
+ <?php
+
+include 'config.php';
+$pic=mysqli_query($con,"SELECT * FROM `movies`");
+while ($row=mysqli_fetch_array($pic)) {
+   echo"
+    <tr>
+   
+<td>$row[Id]</td>
+<td>$row[Name]</td>
+<td>$row[Description]</td>
+<td> <img src='$row[Bannerimage]' width = '50%' height = '35%' ></td>
+<td></td>
+<td></td>
+   
+   </tr>
+   ";
+}
+?>
+
+
+ <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Desc</th>
+      <th>Image</th>
+      <th>Delete</th>
+      <th>Update</th>
+      
+    </tr>
+
+
+
+
+
+
+
+
+
+original 
+
+
+<div class="container"> 
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Image</th>
+      <th scope="col">Delete</th>
+      <th scope="col">Update</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+  <?php
+
+include 'config.php';
+$pic=mysqli_query($con,"SELECT * FROM `movies`");
+while ($row=mysqli_fetch_array($pic)) {
+   echo"
+    <tr>
+   
+<td>$row[Id]</td>
+<td>$row[Name]</td>
+<td>$row[Description]</td>
+<td> <img src='$row[Bannerimage]' width = '200px' height = '70px' ></td>
+<td><a href='delete.php? Id= $row[Id]' class='btn btn-danger'>Delete</a></td>
+<td><a href='update.php? Id= $row[Id]' class='btn btn-danger'>Update</a></td>
+   
+   </tr>
+   ";
+}
+?>
+
+    
+  </tbody>
+</table>
+</div>
+
+<a href="#"><div> 
+                    <img src="./uploadImage/<?php echo $row['Bannerimage'] ?>" alt="">
+                    <p><?php echo" $row[Name] " ?></p>
+                    </div></a>
+
+
+
+
+                    <?php echo "<td><a href='viewmovie.php?Id=".$ID."'>"; ?>
+
+
+                    <?php echo "</a> </td>"; ?>
+
+                    <center>
+<h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Thank you for getting in touch!</h1>
+
+<p> We appreciate you contacting us about [<?php echo "$MOVIEREQ" ?>]. Our team will .</p>
+
+<h2 class="setdiffont"> Have a great day! </h2>
+</center>
+
+
+Our Team Will Verify Your Request. ASAP!!
+
+test link 
+
+WHERE Categories='action'
+
+
+https://dood.to/download/qh8b43xk7j6p6jr1zpq23htt/n/85878491-182-90-1677323634-df22b072f2a61e1e54e8ff3d2f164f54
