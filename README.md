@@ -10,5 +10,3 @@ visit https://spotmymovies.epizy.com
 ![Screenshot_2023-07-09-12-03-21-001_com android chrome 1](https://github.com/sahilkarnekar1/MoviesWebsite/assets/115504306/16e29744-4134-476a-b29c-d136b24d0255)
 ![Screenshot_2023-07-09-12-03-23-731_com android chrome 1](https://github.com/sahilkarnekar1/MoviesWebsite/assets/115504306/36812e9f-b25a-49ca-b7c2-49187ad0cee3)
 ![Screenshot_2023-07-09-12-02-50-426_com android chrome 1](https://github.com/sahilkarnekar1/MoviesWebsite/assets/115504306/36129015-2f40-46fd-961f-bb39e437144e)
-![Screenshot_2023-07-09-11-51-31-164_com example testvolley 1](https://github.com/sahilkarnekar1/WeatherApp/assets/115504306/985736ef-2378-4dd3-84fb-84fd053a0331)
-![Screenshot_2023-07-09-11-51-42-430_com example testvolley 1](https://github.com/sahilkarnekar1/WeatherApp/assets/115504306/337775db-444d-400f-9b9b-f12ded656421)
